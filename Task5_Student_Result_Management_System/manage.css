@@ -1,0 +1,28 @@
+/*table*/
+.main{
+	display: grid;
+	justify-content: center;
+	padding: 40px;
+}
+.main table{
+	margin: 60px auto;
+}
+.main table, th, td {
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: fixed;
+    padding: 10px 30px;
+    width: 50%;
+}
+
+.main th{
+	color: #34661b;
+}
+
+.main tr:hover {
+    background-color:  #61c232;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
